@@ -1,0 +1,128 @@
+.attribution {
+  font-size: 11px; text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body{
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+main{
+  background-color: white;
+  width: 420px;
+  margin: 93px auto;
+  border-radius: 19px;
+}
+
+h1{
+  font-weight: 900;
+  font-size: 1.65rem;
+  margin: 42px 0 0 0;
+  font-weight: 900;
+}
+
+h2{
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  left: 83px;
+  top: 10px;
+}
+
+.illustration-hero{
+  display: block;
+  margin: 0 auto ;
+  width: 420px;
+  border-radius: 19px 19px 0 0;
+}
+
+.description{
+  font-size: 0.938rem;
+  margin: 17px 52px;
+  line-height: 1.59;
+  color: hsl(224, 23%, 55%);
+}
+
+.payment-div{
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 45px;
+  border-radius: 8px;
+  position: relative;
+  height: 89px;
+}
+
+.left-payment-div{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 70%;
+}
+
+.right-payment-div{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+}
+.music-icon{
+  margin: 21px 0 0 20px;
+  float: left;
+}
+
+.amount{
+  position: absolute;
+  top: 33px;
+  left: 85px;
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+}
+
+.change-btn{
+  position: absolute;
+  right: 23px;
+  top: 37px;
+  font-size: .80rem;
+  font-weight: 900;
+  color: hsl(245, 75%, 52%);
+}
+
+.change-btn:hover{
+  text-decoration: none;
+  opacity: .5;
+}
+
+.payment-btn{
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 11px;
+  color: white;
+  display: block;
+  font-size: .85rem;
+  font-weight: 900;
+  margin: 33px 44px 0;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.payment-btn:hover{
+  opacity: .5;
+}
+
+.cancel-btn{
+  display: block;
+  text-decoration: none;
+  margin: 28px 0 0 0;
+  font-size: .91rem;
+  opacity: .5;
+  color: black;
+  font-weight: bold;
+}
+
+.cancel-btn:hover{
+  opacity: 1;
+}
